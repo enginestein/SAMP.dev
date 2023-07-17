@@ -4,7 +4,7 @@ SAMP.dev helps developers to do SAMP scripting in their favourite programming la
 
 # Supported Languages
 
-SAMP.dev can be used in all programming language which support .DLL file importing which are made in .NET. For example:
+SAMP.dev can be used in all programming language which support .DLL file importing which are made in .NET For example:
 
 - C
 
