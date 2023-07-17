@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="Client\Client.cpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Game.cpp">
+      <Filter>Game %28GTA SA%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Messagehandler.cpp">
+      <Filter>Game %28GTA SA%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Rendering\Box.cpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Rendering\D3DFont.cpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Rendering\dx_utils.cpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Rendering\Image.cpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Rendering\Line.cpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Rendering\RenderBase.cpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Rendering\Renderer.cpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Rendering\Text.cpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Pattern.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PipeClient.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PipeServer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Serializer.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Module.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Memory.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\SAMPFunctions.cpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\RenderFunctions.cpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Process.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\MemoryFunctions.cpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\PlayerFunctions.cpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\VehicleFunctions.cpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\NakedHook.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SAMP\SAMP.cpp">
+      <Filter>Game %28GTA SA%29\SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SAMP\RemotePlayer.cpp">
+      <Filter>Game %28GTA SA%29\SAMP</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\GTAFunctions.cpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\GTA\World.cpp">
+      <Filter>Game %28GTA SA%29\GTA</Filter>
+    </ClCompile>
+    <ClCompile Include="Client\WeaponFunctions.cpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game\Messagehandler.hpp">
+      <Filter>Game %28GTA SA%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Game.hpp">
+      <Filter>Game %28GTA SA%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Rendering\Box.hpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Rendering\D3DFont.hpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Rendering\dx_utils.hpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Rendering\Image.hpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Rendering\Line.hpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Rendering\RenderBase.hpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Rendering\Renderer.hpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Rendering\Text.hpp">
+      <Filter>Game %28GTA SA%29\Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\Client.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\algorithm.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Hook.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Pattern.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PipeClient.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PipeServer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SafeBlock.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Serializer.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Windows.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\Config.hpp">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\PipeMessages.hpp">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.hpp" />
+    <ClInclude Include="Utils\Module.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Memory.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\SAMPFunctions.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\RenderFunctions.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Process.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\PlayerFunctions.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\MemoryFunctions.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\VehicleFunctions.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\GTAStructs.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Detours\detours.h">
+      <Filter>Utils\Detours</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3d9.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3d9caps.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3d9types.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9anim.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9core.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9effect.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9math.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9mesh.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9shader.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9shape.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9tex.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\D3DX9\d3dx9xof.h">
+      <Filter>Utils\D3DX9</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\NakedHook.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SAMP\SAMP.hpp">
+      <Filter>Game %28GTA SA%29\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SAMP\PatternTable.hpp">
+      <Filter>Game %28GTA SA%29\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SAMP\RemotePlayer.hpp">
+      <Filter>Game %28GTA SA%29\SAMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\GTAFunctions.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\GTA\World.hpp">
+      <Filter>Game %28GTA SA%29\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="Client\WeaponFunctions.hpp">
+      <Filter>Client %28Keybinder%29</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Client %28Keybinder%29">
+      <UniqueIdentifier>{cded1b7c-176b-4965-942a-d5743809c49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game %28GTA SA%29">
+      <UniqueIdentifier>{7b6b209b-c84e-4c76-a339-fb670fc07052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{1ccb526a-ebdd-439e-88e9-63c154e8550a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{aecba2e8-2069-427f-a0d0-8978e4da9998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game %28GTA SA%29\Rendering">
+      <UniqueIdentifier>{d51ce45c-1411-4620-ae2f-4fc869d96b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\D3DX9">
+      <UniqueIdentifier>{339f8d66-1a33-415c-bd77-6989c614783c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Detours">
+      <UniqueIdentifier>{c1775da1-bca9-48e0-9fe2-f272fd3467f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game %28GTA SA%29\SAMP">
+      <UniqueIdentifier>{3d923964-ebb6-4cfd-b73f-fc0bfd26f2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game %28GTA SA%29\GTA">
+      <UniqueIdentifier>{4ad632c8-c447-4282-8f8b-39d9af614a87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="Utils\Detours\detours.lib">
+      <Filter>Utils\Detours</Filter>
+    </Library>
+    <Library Include="Utils\D3DX9\d3dx9.lib">
+      <Filter>Utils\D3DX9</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utils\D3DX9\d3dx9math.inl">
+      <Filter>Utils\D3DX9</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
