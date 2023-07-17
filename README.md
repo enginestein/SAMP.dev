@@ -44,7 +44,7 @@ and more if it supports .NET DLL importing
 
 # Installation
 
-Installation is simple, all you have to do is to download [DLL file](https://github.com/enginestein/SAMP.dev/releases] and iclude the file in your code but if you are using C#, C++ or AutoHotKey, you can include following files in your code:
+Installation is simple, all you have to do is to download [DLL file](https://github.com/enginestein/SAMP.dev/releases) and iclude the file in your code but if you are using C#, C++ or AutoHotKey, you can include following files in your code:
 
 #### For AutoHotKey : Include [this](https://github.com/enginestein/SAMP.dev/blob/main/SAMP.dev.ahk) or you can visit [SAMP.ahk](https://github.com/enginestein/SAMP.ahk)
 
