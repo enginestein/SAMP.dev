@@ -1,0 +1,39 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SAMPdev.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  Serializer.cpp
+  PipeServer.cpp
+  PipeClient.cpp
+  Pattern.cpp
+  Module.cpp
+  Process.cpp
+  NakedHook.cpp
+  Memory.cpp
+  SAMP.cpp
+  RemotePlayer.cpp
+  Text.cpp
+  Renderer.cpp
+  RenderBase.cpp
+  Line.cpp
+  Image.cpp
+  dx_utils.cpp
+  D3DFont.cpp
+  Box.cpp
+  Messagehandler.cpp
+  World.cpp
+  Generating Code...
+  Compiling...
+  Game.cpp
+  dllmain.cpp
+  WeaponFunctions.cpp
+  VehicleFunctions.cpp
+  SAMPFunctions.cpp
+  RenderFunctions.cpp
+  PlayerFunctions.cpp
+  MemoryFunctions.cpp
+  GTAFunctions.cpp
+  Client.cpp
+  Generating Code...
+     Creating library SAMP.dev\SAMP.dev.lib and object SAMP.dev\SAMP.dev.exp
+  SAMPdev.vcxproj -> C:\Main\Projects\C\SAMP.dev\src\SAMP.dev\SAMP.dev\SAMP.dev.dll
+  SAMPdev.vcxproj -> SAMP.dev\SAMP.dev.pdb (Full PDB)
