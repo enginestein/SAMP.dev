@@ -42,6 +42,8 @@ SAMP.dev can be used in all programming language which support .DLL file importi
 
 - MATLAB (You probably dont want to use this one too)
 
+- Lua
+
 and more if it supports .NET DLL importing
 
 # Installation
