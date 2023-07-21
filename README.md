@@ -9,39 +9,22 @@ SAMP.dev helps developers to do SAMP scripting in their favourite programming la
 SAMP.dev can be used in all programming language which support .DLL file importing which are made in .NET For example:
 
 - C
-
 - C++
-
 - C#
-
 - Visual Basic .NET
-
 - AutoHotKey
-
 - Java
-
 - Python
-
 - Delphi
-
 - Perl
-
 - Powershell (You probably dont want to use this)
-
 - Perl
-
 - Ruby
-
 - Swift
-
 - GO
-
 - Rust
-
 - PHP (DLL importing has been removed in PHP 7 or later)
-
 - MATLAB (You probably dont want to use this one too)
-
 - Lua
 
 and more if it supports .NET DLL importing
