@@ -17,14 +17,14 @@ SAMP.dev can be used in all programming language which support .DLL file importi
 - Python
 - Delphi
 - Perl
-- Powershell (You probably dont want to use this)
+- Powershell
 - Perl
 - Ruby
 - Swift
 - GO
 - Rust
 - PHP (DLL importing has been removed in PHP 7 or later)
-- MATLAB (You probably dont want to use this one too)
+- MATLAB 
 - Lua
 
 and more if it supports .NET DLL importing
