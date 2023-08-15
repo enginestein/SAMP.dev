@@ -32,7 +32,7 @@ and more if it supports .NET DLL importing
 # Installation
 
 Installation is simple, all you have to do is to download [DLL file](https://github.com/enginestein/SAMP.dev/releases) and include the file in your
-code but you can also find some pre-made wrappers in the [wrappers](https://github.com/enginestein/SAMP.dev/blob/main/SAMP.dev.h) folder for various languages
+code but you can also find some pre-made wrappers in the [wrappers](https://github.com/enginestein/SAMP.dev/blob/main/wrappers) folder for various languages
 
 # Usage
 
