@@ -1,5 +1,7 @@
 # SAMP.dev
 
+*archived because samp is dead :(*
+
 *The project is built using an old version of visual studio, building with the new version did not work as intended, but in the future updates the project will be recreated with the latest version of visual studio.*
 
 SAMP.dev helps developers to do SAMP scripting in their favourite programming language. SAMP.dev wraps all the SAMP functions and encodes them into a DLL file which can be then imported to source files in various programming language and can be used for SAMP scripting.
